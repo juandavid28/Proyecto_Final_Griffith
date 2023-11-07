@@ -1,48 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>ProgramaYa!</title>
-    <link rel="stylesheet" href="index.css">
+    <title>Griffith!</title>
+    <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
-    <section id="contacto" class="contacto">
-        <div class="contenido-seccion">
-            <h2>CONTACTO</h2>
-            <div class="fila">
-                <!-- Formulario -->
-                <div class="col">
-                    <input type="text" placeholder="Tú Nombre">
-                    <input type="text" placeholder="Número telefónico">
-                    <input type="text" placeholder="Dirección de correo">
-                    <input type="text" placeholder="Tema">
-                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
-                    <button>
-                        Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
-                        <span class="overlay"></span>
-                    </button>
-                </div>
-                <!-- Mapa -->
-                <div class="col">
-                    <img src="img/ubicacion.png" alt="">
-                    <div class="info">
-                        <ul>
-                            <li>
-                                <i class="fa-solid fa-location-dot"></i>
-                                San Gil Santander
-                            </li>
-                            <li>
-                                <i class="fa-solid fa-mobile-screen"></i>
-                                Llamanos: 313 31122418 
-                            </li>
-                            <li>
-                                <i class="fa-solid fa-envelope"></i>
-                                Email: juanrodriguez1@colegioguanenta.edu.co
-                            </li>
-                        </ul>
-                    </div>
+    <header>
+        <div class="container">
+            <p class="logo">Griffith</p>
+            <nav>
+                <a href="#somos-proya">Quien Soy</a>
+                <a href="#nuestros-programas"> Programador</a>
+                <a href="#caracteristicas">Características</a>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero">
+        <h1>Encuentra los mejores <br>Juegos</h1>
+        <button>Registrate</button>
+    </section>
+
+    <section id="somos-proya">
+        <div class="container">
+            <div class="img-container"></div>
+            <div class="texto">
+
+                <h2>Soy<span class="color-acento">Griffith!</span></h2>
+                <p>Soy una pagina creada principalmente para poder vender videojuegos</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="nuestros-programas">
+        <div class="container">
+            <h2>Nuestros Programador</h2>
+            <div class="programas">
+                <div class="carta">
+                    <h3>Programador</h3>
+                    <p></p>
+                    <button>+ Info</button>
                 </div>
             </div>
         </div>
+    </section>
+
+    <section id="caracteristicas">
+        <div class="container">
+            <ul>
+                <li>✔️ 100% online</li>
+                <li>✔️ Flexibilidad de horarios</li>
+                <li>✔️ Soporte 1:1</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="final">
+        <h2>Listo para Registrate</h2>
+        <button>Registrar</button>
     </section>
 </body>
 </html>
